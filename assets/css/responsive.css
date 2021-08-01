@@ -2,7 +2,7 @@
 
     .home .home-banner-1,
     .home .home-banner-2 {
-        
+
         background-position: 65% center;
         min-height         : 550px;
     }
@@ -15,8 +15,12 @@
 
 @media (max-width: 991px) {
     .home .home-banner .home-banner-text {
-        transform: translate(-66%, -50%);
+        transform: translate(-50%, -50%);
+        padding  : 1.5rem;
     }
+
+
+
 }
 
 @media (max-width: 767px) {
@@ -28,7 +32,8 @@
     }
 
     .home .home-banner .home-banner-text {
-        padding         : 10px 0 25px;
+        padding         : 1rem;
+        border-radius   : 0;
         background-color: rgba(255, 255, 255, 0.6);
         color           : #3d3d3d;
         text-align      : center;
